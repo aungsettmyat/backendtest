@@ -1,0 +1,39 @@
+body{    
+}
+#searcharea,#resultarea{
+    margin-left: 3em;
+}
+#searchbar{
+    background: transparent;
+    border: none;
+    border-bottom:1.3px solid #e8eaf2;
+    width: 400px;
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+#searchbtn,#play,#pause{
+    border: none;
+    background-color: blue;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ffffff;
+    border-radius: 5%;
+}
+#searchbtn,#pause{
+    margin-left: 1em;
+}
+#resultarea div{
+    padding-bottom: 0.5em;
+}
+#resultarea span{
+    font-weight: 600;
+    font-size: 14px;
+    color: brown;
+    margin-left: 0.5em;
+}
+#resultarea span:hover,
+#searchbtn:hover,
+#play:hover,
+#pause:hover{
+    opacity: 0.8;    
+}
